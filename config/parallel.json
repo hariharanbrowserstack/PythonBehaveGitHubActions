@@ -1,6 +1,6 @@
 {
-  "user": "BROWSERSTACK_USERNAME",
-  "key": "BROWSERSTACK_ACCESS_KEY",
+  "user": "bhumikababbar_AJNnOF",
+  "key": "6pfGVnFrDLssY713tZFQ",
 
   "capabilities": {
     "build": "behave-browserstack",
