@@ -14,7 +14,7 @@ BROWSERSTACK_USERNAME = os.environ['BROWSERSTACK_USERNAME'] if 'BROWSERSTACK_USE
 BROWSERSTACK_ACCESS_KEY = os.environ['BROWSERSTACK_ACCESS_KEY'] if 'BROWSERSTACK_ACCESS_KEY' in os.environ else CONFIG['key']
 
 def start_local():
-    """Code to start browserstack local before start of test."""
+    """Code to start browserstack local before start of test"""
     global bs_local
     bs_local = Local()
     bs_local_args = { "key": BROWSERSTACK_ACCESS_KEY, "forcelocal": "true" }
