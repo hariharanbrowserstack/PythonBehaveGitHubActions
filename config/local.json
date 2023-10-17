@@ -10,6 +10,6 @@
   },
 
   "environments": [{
-    "browser": "chrome"
+    "browser": "firefox"
   }]
 }
